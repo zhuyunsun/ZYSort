@@ -15,10 +15,7 @@
 		FE59590F1E9E06AD00D87535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE59590D1E9E06AD00D87535 /* LaunchScreen.storyboard */; };
 		FE59591A1E9E06AD00D87535 /* ZYSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959191E9E06AD00D87535 /* ZYSortTests.m */; };
 		FE5959251E9E06AD00D87535 /* ZYSortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959241E9E06AD00D87535 /* ZYSortUITests.m */; };
-		FE5959481E9E09BF00D87535 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959411E9E09BF00D87535 /* ChineseString.m */; };
 		FE5959491E9E09BF00D87535 /* DayiGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959431E9E09BF00D87535 /* DayiGroups.m */; };
-		FE59594A1E9E09BF00D87535 /* Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959451E9E09BF00D87535 /* Pinyin.m */; };
-		FE59594B1E9E09BF00D87535 /* resultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5959471E9E09BF00D87535 /* resultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +52,8 @@
 		FE5959201E9E06AD00D87535 /* ZYSortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYSortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5959241E9E06AD00D87535 /* ZYSortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSortUITests.m; sourceTree = "<group>"; };
 		FE5959261E9E06AD00D87535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE5959401E9E09BF00D87535 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
-		FE5959411E9E09BF00D87535 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
 		FE5959421E9E09BF00D87535 /* DayiGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayiGroups.h; sourceTree = "<group>"; };
 		FE5959431E9E09BF00D87535 /* DayiGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayiGroups.m; sourceTree = "<group>"; };
-		FE5959441E9E09BF00D87535 /* Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pinyin.h; sourceTree = "<group>"; };
-		FE5959451E9E09BF00D87535 /* Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pinyin.m; sourceTree = "<group>"; };
-		FE5959461E9E09BF00D87535 /* resultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultsViewController.h; sourceTree = "<group>"; };
-		FE5959471E9E09BF00D87535 /* resultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,14 +147,8 @@
 		FE59593F1E9E09BF00D87535 /* ZYSortGroups */ = {
 			isa = PBXGroup;
 			children = (
-				FE5959401E9E09BF00D87535 /* ChineseString.h */,
-				FE5959411E9E09BF00D87535 /* ChineseString.m */,
 				FE5959421E9E09BF00D87535 /* DayiGroups.h */,
 				FE5959431E9E09BF00D87535 /* DayiGroups.m */,
-				FE5959441E9E09BF00D87535 /* Pinyin.h */,
-				FE5959451E9E09BF00D87535 /* Pinyin.m */,
-				FE5959461E9E09BF00D87535 /* resultsViewController.h */,
-				FE5959471E9E09BF00D87535 /* resultsViewController.m */,
 			);
 			path = ZYSortGroups;
 			sourceTree = "<group>";
@@ -304,13 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE59594A1E9E09BF00D87535 /* Pinyin.m in Sources */,
-				FE5959481E9E09BF00D87535 /* ChineseString.m in Sources */,
 				FE5959491E9E09BF00D87535 /* DayiGroups.m in Sources */,
 				FE5959071E9E06AD00D87535 /* ViewController.m in Sources */,
 				FE5959041E9E06AD00D87535 /* AppDelegate.m in Sources */,
 				FE5959011E9E06AD00D87535 /* main.m in Sources */,
-				FE59594B1E9E09BF00D87535 /* resultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

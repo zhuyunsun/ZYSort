@@ -6,13 +6,42 @@
  4,第三个方法，将国际标准字节处理成我们的中文数据，
  5,一个是没有处理的数组,一个是已经处理了的数组,还有一个是首字母数组
 */
-
-
 #import <Foundation/Foundation.h>
-#import "Pinyin.h"
-#import "ChineseString.h"
 @interface DayiGroups : NSObject
--(NSMutableArray *)getSectionsTitles:( NSMutableArray *)arrToSort;
--(NSMutableArray *)getResultGroups:( NSMutableArray *)arrToSort;
--(NSString *)getTextForLable:(NSString * )Istring;
+
+/**
+ 每一个section的大写字母
+
+ @param arrToSort 要排序的字母
+ @return 首字母数组
+ */
+
++(NSMutableArray *)getSectionsTitles:( NSMutableArray *)arrToSort;
+
+/**
+  返回一个数组,数组中的值是数组类型数据
+
+ @param arrToSort 没处理数组
+ @return 返回一个数组
+ */
++(NSMutableArray *)getResultGroups:( NSMutableArray *)arrToSort;
+
+/**
+ 将国际标准字节处理成我们的中文数据
+
+ @param Istring 待处理字符串
+ @return 处理了的字符串
+ */
++(NSString *)getTextForLable:(NSString * )Istring;
+@end
+
+@interface ChineseString : NSObject
+@property(retain,nonatomic)NSString *string;
+@property(retain,nonatomic)NSString *pinYin;
+@end
+
+#define ALPHA    @"ABCDEFGHIJKLMNOPQRSTUVWXYZ#"
+char pinyinFirstLetter(unsigned short hanzi);
+@interface Pinyin : NSObject
+
 @end
